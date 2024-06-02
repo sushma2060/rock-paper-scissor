@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    background-color: beige;
+    height: 5rem;
+
+
+  }
+  h2{
+    text-align: center;
+  }
+img {
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.buttons {
+display: flex;
+align-items: center;
+
+justify-content:center;
+gap: 3rem;
+}
+.choice:hover {
+ 
+  cursor: pointer;
+    background-color: rgb(128, 17, 17);
+   
+
+}
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#result{
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+  
+}
+#winner{
+  text-align: center;
+  font-size: 24px ;
+  color: red;
+}
+#replay_button{
+  text-align: center;
+  border-color: green;
+
+}
